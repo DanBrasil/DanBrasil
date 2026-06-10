@@ -91,6 +91,34 @@ Landing page com foco em captação de leads e agendamento.
 
 ---
 
+### PiP Flutuante — Biblioteca React
+
+Componente para abrir janelas flutuantes (Picture-in-Picture) que permanecem
+acima de qualquer aplicação, usando a Document Picture-in-Picture API.
+O conteúdo é o **mesmo React renderizado via `ReactDOM.createPortal`** — estado,
+contexto e hooks continuam funcionando, sem clone e sem recarregar.
+
+* React + TypeScript
+* Document Picture-in-Picture API (Chrome 116+, Edge, Brave, Opera)
+* `ReactDOM.createPortal` para renderizar fora do navegador
+* Replicação automática de CSS para a janela flutuante
+* Casos de uso: player flutuante, chat persistente, dashboard ao vivo, timer pomodoro
+* Distribuível como arquivo único ou pacote npm
+
+---
+
+### PiP Flutuante — Biblioteca JS (Vanilla)
+
+Versão em JavaScript puro da mesma ideia, sem dependências e sem build.
+Funciona em qualquer página que entregue HTML ao navegador, independente do
+back-end (PHP, Python, Node, etc.).
+
+* JavaScript puro (sem dependências)
+* Document Picture-in-Picture API
+* Uso via `<script>`, ES Module ou CDN
+* Detecção de suporte com fallback (`isSupported()`)
+* Compatível com qualquer stack que renderize HTML (WordPress, Laravel, Astro, etc.)
+
 ## O que você vai encontrar aqui
 
 - Aplicações front-end escaláveis
